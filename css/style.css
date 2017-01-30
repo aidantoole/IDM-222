@@ -1,0 +1,155 @@
+* { box-sizing: border-box; }
+
+html { font-size: 100%; }
+
+body {
+	/* background-color: #465060; */
+	/*background-color: #F0F0F0;*/
+	font-family:'Open Sans', sans-serif;
+	background: #43C6AC; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left, #43C6AC, #191654); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, #43C6AC, #191654); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, #43C6AC, #191654); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, #43C6AC, #191654); /* Standard syntax */
+}
+
+	
+/*---Content---*/
+
+	.content h1{
+		color: #fff;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.content {
+		color:#fff;
+		font-size: 100%;
+		text-align: left;
+
+	}
+
+	.content a {
+		color:#fff;
+		text-decoration: underline;
+	}
+
+	.content a:hover{
+		color: #191654;
+		text-decoration: none;
+	}
+
+	#main {
+		width: 80%;
+		margin: auto;
+		position: relative;
+		top: 50%;
+		transform: translateY(25%);
+	}
+
+	#resume {
+		width: 80%;
+		margin: auto;
+		padding-top: 7rem;
+	}
+
+	/* .portimg{
+		width: 350px;
+		height: auto;
+	} 
+	
+	#pics {
+		border-spacing:10px;
+		margin: auto;
+	}
+
+	#pics img:hover{
+		opacity: 0.5;
+		background: #000;
+	}
+	
+	-- This stuff has already been identified in the portfolio css, however it seems to have stopped working, I'll have to take a look at it later --
+
+	
+
+	:target:before{
+		content:"";
+		display: block;
+		height:110px;
+		margin: -110px 0 0;
+	}
+
+	*/
+
+
+/* --- Icons --- */
+	
+	.imgicons{
+		width: 60px;
+		height: 60px;
+		background-repeat: no-repeat;
+	}
+
+	
+	 #icons{
+		margin: auto;
+		width: 50px;
+		height: auto;
+	}
+
+	/* --- Icon SVGS - Black --- */
+
+	#dribbble {
+		background-image: url('../images/icons/dribbble_white.svg');
+	}
+
+	#instagram {
+		background-image: url('../images/icons/instagram_white.svg');
+	}
+	
+	#linkedin {
+		background-image: url('../images/icons/linkedIn_white.svg');
+	}
+
+	/* --- Icons - Hover ---*/
+
+	#dribbble:hover{
+		background-image: url('../images/icons/dribbble_purple.svg');
+	}
+
+	#instagram:hover{
+		background-image: url('../images/icons/instagram_purple.svg');
+	}
+	
+	#linkedin:hover{
+		background-image: url('../images/icons/linkedIn_purple.svg');
+	}
+	
+
+
+/* --- portfolio content --- */
+
+/*
+	#picscontent{
+		margin: auto;
+	}
+
+	#description{
+		font-size: 150%;
+		font-family: 'OpenSans-Semibold';
+		margin-left: 8rem;
+		text-align:left;
+		width: 400px;
+	}
+
+
+	#large_img_div{
+		text-align: center;
+	}
+
+	.port_title h1{
+		text-align: center;
+	}
+	*/
+
+	
+
