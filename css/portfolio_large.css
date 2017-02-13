@@ -36,6 +36,14 @@ body{
 		text-decoration: none;
 	}
 
+	.row{
+		display: flex;
+		justify-content: center;
+	}
+
+	/* I like this A LOT better than columns */
+
+
 	/* #main {
 		width: 900px;
 		margin-left: 5rem;
@@ -46,6 +54,7 @@ body{
 		width: 350px;
 		height: auto;
 		margin:.5rem;
+
 	}
 
 	body{
