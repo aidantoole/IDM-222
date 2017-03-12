@@ -1,0 +1,67 @@
+* { box-sizing: border-box; }
+
+html { font-size: 100%; }
+
+body{
+	background-color: #fff;
+	color:#B8B8B8;
+}
+
+/* scrapped the whole two css sheets for the portfolio section, replacing one of them with a specific style sheet for the individual project sections*/
+
+
+/*---Content---*/
+
+	.content h1{
+		color: #6D6D6D;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 250%;
+	}
+	/* Had some trouble setting the h1 color but then realized it had to be declared after .content, so I repositoined it */
+
+	.row{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.portimg{
+		width: 400px;
+		height: auto;
+	}
+
+
+/* --- portfolio content --- */
+
+
+	#specimg{
+		display: inline-block;
+	}
+
+	#description{
+		text-align: left;
+		font-size: 150%;
+		font-family: 'OpenSans-Semibold';
+		max-width: 25rem;
+		position: relative;
+		margin: 5rem;
+	}
+	
+	#large_img_div{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.large_size{
+		max-width: 100%;
+    	height: auto;
+	}
+
+	.port_title h1{
+		text-align: center;
+	}
+
+	#portfolio_single{
+		padding-top: 3rem;
+	}

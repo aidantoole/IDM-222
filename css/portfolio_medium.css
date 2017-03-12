@@ -4,7 +4,6 @@ html { font-size: 100%; }
 
 body{
 	background-color: #fff;
-	font-family: 100%/1.4 'Open Sans', sans-serif;
 }
 
 /*---Content---*/
@@ -33,11 +32,12 @@ body{
 		text-decoration: none;
 	}
 
-	/* #main {
-		width: 900px;
-		margin-left: 5rem;
+	.row{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
-	*/
+	
 
 	.portimg {
 		width: 350px;
@@ -45,32 +45,20 @@ body{
 		margin:.5rem;
 	}
 
-	body{
-		width: 100%;
-	}
 
-	#pics {
+	/* #pics {
 		border-spacing:.5rem;
 		margin: auto;
 	}
+	*/
 
 	#pics img:hover{
 		opacity: 0.5;
 		background: #000;
 	}
 
-	#allpiccontainer{
-		margin: 0 auto;
-		position: relative;
-		padding-top: 3rem;
-		max-width: 3000px;
-		text-align: center;
-	}
-
 	#imgcontent{
-		position: relative;
-		left: 0;
-		width: 100%;
+		padding-top: 5rem;
 	}
 
 /* --- Icons --- */
